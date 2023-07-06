@@ -1,0 +1,30 @@
+@import "./variables.scss";
+@import "./home";
+
+.text-content {
+  max-width: 1450px;
+  margin: auto;
+  padding: 5rem 0;
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  table {
+    thead {
+      tr {
+        th {
+          width: 25%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .text-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

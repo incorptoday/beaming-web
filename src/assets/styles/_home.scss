@@ -1,0 +1,33 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65) url("../images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    max-width: 80%;
+  }
+  h3 {
+    margin: 0;
+    margin-top: 2rem;
+    font-size: 6rem;
+    text-align: center;
+    max-width: 80%;
+  }
+  &__btns {
+    margin-top: 3rem;
+    img {
+      width: 10rem;
+      margin: 0 0.5rem;
+    }
+  }
+}
