@@ -80,18 +80,76 @@ const PrivacyPolicy = () => {
               <td>Profile or Contact Data</td>
               <td>Collected for the purpose of creating and managing user accounts and shared with Service Providers and Analytics Partners (each as defined below) to deliver and improve the Services.</td>
               <td>
-                – Name<br/>
-                – Email<br/>
-                – Phone number<br/>
+                – Name<br />
+                – Email<br />
+                – Phone number<br />
               </td>
               <td>
-                – Service Providers<br/>
-                – Analytics Partners<br/>
-                – Parties You Authorize, Access or Authenticate<br/>
+                – Service Providers<br />
+                – Analytics Partners<br />
+                – Parties You Authorize, Access or Authenticate<br />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Private Sensitive Personal Data</td>
+              <td>Collected to provide you with the Services and shared with Service Providers to deliver our Services (e.g., database provider); however, this Personal Data is encrypted with industry standard encryption.</td>
+              <td>
+                – Passwords
+              </td>
+              <td>
+                – Service Providers
+                – Parties You Authorize, Access or Authenticate
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                App Analytics
+              </td>
+              <td>
+                Collected for studying, at the aggregate level (unless necessary for specific customer support or de-bugging), and personalizing or improving the messaging or Services (e.g. which sessions or functionality are most popular) and shared with Service Providers and Analytics Partners to deliver and improve our Services.
+              </td>
+              <td>
+                – Specific session or listening activity<br />
+                – Engagement with App functionality or posts to in-App groups<br />
+              </td>
+              <td>
+                – Service Providers<br />
+                – Analytics Partners<br />
+                – Parties You Authorize, Access or Authenticate<br />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                App Analytics
+              </td>
+              <td>
+                Collected for studying, at the aggregate level (unless necessary for specific customer support or de-bugging), and personalizing or improving the messaging or Services (e.g. which sessions or functionality are most popular) and shared with Service Providers and Analytics Partners to deliver and improve our Services.
+              </td>
+              <td>
+                – Specific session or listening activity<br />
+                – Engagement with App functionality or posts to in-App groups<br />
+              </td>
+              <td>
+                – Service Providers<br />
+                – Analytics Partners<br />
+                – Parties You Authorize, Access or Authenticate<br />
               </td>
             </tr>
           </tbody>
         </table>
+
+        <div className="text-content__item">
+          <h3>Categories of Personal Data We Collect</h3>
+          <p>
+            This section details the categories of Personal Data that we collect and have collected over the past 12 months. See the “Data Sharing” section further below for more information about our sharing practices.
+          </p>
+          <p>
+            The California Consumer Privacy Act (“CCPA”) also requires us to describe our practices over the past twelve months prior to the date of this Privacy Policy.  Our practices in the twelve months prior to that date are reflected in the table above, but additionally, we disclosed some limited App Analytics data (which, for clarity, did not include any information about session titles users listened to, or any Private Sensitive Personal Data) to certain Advertising Partners.  We have discontinued that practice.
+          </p>
+        </div>
       </div>
     </div>
   )
