@@ -1,0 +1,32 @@
+.contact-us {
+  max-width: 1450px;
+  margin: auto;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__content {
+    width: 50%;
+    h3 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+  &__form {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us {
+    flex-direction: column;
+    padding: 0 5%;
+    &__content {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+    &__form {
+      width: 100%;
+    }
+  }
+}

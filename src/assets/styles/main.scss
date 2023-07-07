@@ -1,5 +1,8 @@
 @import "./variables.scss";
-@import "./home";
+
+.main {
+  min-height: 100vh;
+}
 
 .text-content {
   max-width: 1450px;
@@ -47,3 +50,8 @@
     padding-right: 3rem;
   }
 }
+
+@import "./header";
+@import "./footer";
+@import "./home";
+@import "./contact-us";
