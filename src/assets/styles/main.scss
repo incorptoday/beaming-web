@@ -39,9 +39,19 @@
     }
   }
   &__item {
+    margin-top: 2rem;
     h3 {
       margin: 0;
       font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+  &__sub-item {
+    margin-top: 2rem;
+    h3 {
+      margin: 0;
+      font-size: 1.8rem;
       font-weight: bold;
       margin-bottom: 1rem;
     }
