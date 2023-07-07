@@ -1,5 +1,5 @@
 .home {
-  min-height: calc(100vh - 110px);
+  @extend .fit-content;
   width: 100%;
   background: rgba(0, 0, 0, 0.65) url("../images/bg.jpeg");
   background-repeat: no-repeat;
@@ -33,5 +33,4 @@
 }
 
 @media screen and (max-width: 768px) {
-
 }

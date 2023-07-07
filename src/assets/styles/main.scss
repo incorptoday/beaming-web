@@ -4,8 +4,12 @@
   min-height: 100vh;
 }
 
+.fit-content {
+  min-height: calc(100vh - 100px);
+}
+
 .text-content {
-  max-width: 1450px;
+  max-width: $max-width;
   margin: auto;
   padding: 5rem 0;
   h1 {
@@ -44,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: $max-width) {
   .text-content {
     padding-left: 3rem;
     padding-right: 3rem;
