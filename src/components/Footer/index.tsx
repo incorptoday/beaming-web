@@ -17,6 +17,10 @@ const Footer = () => {
             <li>
               <a href="/terms-of-service">Terms of Service</a>
             </li>
+
+            <li>
+              <a href="/data-deletion-instruction">Data Deletion Instruction</a>
+            </li>
           </ul>
         </div>
       </footer>

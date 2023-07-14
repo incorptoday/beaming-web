@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import ContactUs from './pages/ContactUs';
+import DataDeletionInstruction from './pages/DataDeletionInstruction';
 
 // Components
 import Footer from './components/Footer';
@@ -40,6 +41,12 @@ const router = createBrowserRouter([
     path: '/contact-us',
     element: (
       <ContactUs />
+    ),
+  },
+  {
+    path: '/data-deletion-instruction',
+    element: (
+      <DataDeletionInstruction />
     ),
   },
 ]);
