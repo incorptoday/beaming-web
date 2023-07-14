@@ -9,7 +9,7 @@ const DataDeletionInstruction = () => {
       </p>
 
       <p>
-        If you want to delete your activities for Butterfly Login App, you can remove your information by following these steps:
+        If you want to delete your activities for Beem Login App, you can remove your information by following these steps:
       </p>
 
       <ul>
