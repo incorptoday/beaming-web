@@ -5,9 +5,7 @@ const Footer = () => {
     <Fragment>
       <footer>
         <div className="footer-content">
-          <p>
-            © 2023 Beaming app by Prepaid Solutions, LLC
-          </p>
+          <p>© 2025 Beaming app by Prepaid Solutions, LLC</p>
 
           <ul>
             <li>
@@ -25,7 +23,7 @@ const Footer = () => {
         </div>
       </footer>
     </Fragment>
-  )
-}
+  );
+};
 
 export default Footer;
