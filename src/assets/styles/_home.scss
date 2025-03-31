@@ -32,5 +32,22 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $mobile-screen) {
+  .home {
+    h3 {
+      font-size: 4rem;
+    }
+    &__btns {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 1rem;
+      a {
+        display: block;
+        text-align: center;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
 }

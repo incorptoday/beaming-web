@@ -32,3 +32,11 @@ header {
     }
   }
 }
+
+@media screen and (max-width: $mobile-screen) {
+  header {
+    .menu {
+      padding: 0 1rem;
+    }
+  }
+}

@@ -10,16 +10,25 @@ const Home = () => {
 
         <div className="home__btns">
           <a>
-            <img alt="image" src={require('../../assets/images/googleplay.png')} />
+            <img
+              alt="image"
+              src={require('../../assets/images/googleplay.png')}
+            />
           </a>
 
-          <a>
-            <img alt="image" src={require('../../assets/images/appstore.png')} />
+          <a
+            target="_blank"
+            href="https://apps.apple.com/us/app/beem-beaming-app/id6451088060"
+          >
+            <img
+              alt="image"
+              src={require('../../assets/images/appstore.png')}
+            />
           </a>
         </div>
       </div>
     </Fragment>
-  )
-}
+  );
+};
 
 export default Home;
