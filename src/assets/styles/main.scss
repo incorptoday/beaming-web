@@ -59,6 +59,19 @@
   }
 }
 
+.ant-message-notice {
+  &.ant-message-notice-success {
+    .ant-message-notice-content {
+      background: $green;
+      .ant-message-custom-content {
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $max-width) {
   .text-content {
     padding-left: 3rem;
