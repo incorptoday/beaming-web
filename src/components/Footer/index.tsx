@@ -19,6 +19,10 @@ const Footer = () => {
             <li>
               <a href="/data-deletion-instruction">Data Deletion Instruction</a>
             </li>
+
+            <li>
+              <a href="/subscription-terms">Subscription Terms</a>
+            </li>
           </ul>
         </div>
       </footer>
