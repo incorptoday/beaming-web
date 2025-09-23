@@ -10,6 +10,7 @@ import DataDeletionInstruction from './pages/DataDeletionInstruction';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import SubscriptionTerms from './pages/SubscriptionTerms';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/data-deletion-instruction',
     element: <DataDeletionInstruction />,
+  },
+  {
+    path: '/subscription-terms',
+    element: <SubscriptionTerms />,
   },
 ]);
 
